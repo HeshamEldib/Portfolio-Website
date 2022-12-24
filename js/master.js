@@ -18,7 +18,6 @@ let lightColor = ["#fff", "#111"];
 
 let localIcon = localStorage.getItem("test");
 if (localIcon !== null) {
-    console.log(localStorage.getItem("test"))
     if (localStorage.getItem("test") === "dark") {
         lightIcon.classList.remove("visible");
         darkIcon.classList.add("visible");
@@ -98,5 +97,21 @@ window.onscroll = () => {
     })
 }
 
+// home 
+// button
+// let button = document.querySelector(".main-button button");
+// button.addEventListener("mousemove", (e) => {
+//     console.log(e)
+//     // console.log("Y: " + e.offsetY)
+//     // if (e.screenX > 50 && e.screenX < 220) {
+//     // }
+//     // console.log("x: " + e.screenX)
+//     // console.log("y: " + e.screenY)
+//     // console.log(button)
+//     button.style.cssText = `transform: translate3d(${e.movementX}px, ${e.movementY}px, 0px) scale(1.05, 1.05);`
+// });
+// button.addEventListener("mouseleave", (e) => {
+//     button.style.removeProperty("transform")
+// });
 
 
