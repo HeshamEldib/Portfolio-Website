@@ -1,3 +1,9 @@
+// Page loading animation
+const loaderContainer = document.querySelector('#js-preloader');
+window.addEventListener('load', () => {
+    loaderContainer.classList.add("loaded");
+});
+
 // header
 let header = document.querySelector("header");
 window.addEventListener("scroll", () => {
@@ -12,9 +18,9 @@ window.addEventListener("scroll", () => {
 let mode = document.querySelector("header .mode");
 let lightIcon = document.querySelector("header .mode .light");
 let darkIcon = document.querySelector("header .mode .dark");
-let nameColor = ["--mode-bag", "--mode-color"];
-let darkColor = ["#14213d", "#e5e5e5"];
-let lightColor = ["#fff", "#111"];
+let nameColor = ["--mode-bag", "--mode-color", "--mode-color-trans", "--mode-header", "--mode-meine", "--mode-bg-skilles", "--mode-bg-hover-skilles", "--mode-bg-projects", "--mode-bg-hover-projects"];
+let darkColor = ["#202020", "#e5e5e5", "#ffffff82", "#333533", "#2f4550", "#5c5c5c6e", "#625d5d7e", "#2f3134", "#343a40"];
+let lightColor = ["#faf9f9", "#011627", "#24222263", "#d6d6d6", "#eff1f3", "#c6c6c66e", "#e6e1e17e", "#ced4da", "#adb5bd"];
 
 let localIcon = localStorage.getItem("test");
 if (localIcon !== null) {
@@ -35,8 +41,8 @@ if (localMode !== null) {
 }
 
 mode.addEventListener("click", () => {
-    lightIcon.classList.toggle("visible");
     darkIcon.classList.toggle("visible");
+    lightIcon.classList.toggle("visible");
     
     if (darkIcon.classList.contains("visible")) {
         localStorage.setItem("test", "dark");
@@ -88,7 +94,7 @@ linkes.forEach((li) => {
 let section = document.querySelectorAll("section");
 window.onscroll = () => {
     section.forEach((s) => {
-        if (window.scrollY >= s.offsetTop - 50 && window.scrollY <= s.offsetHeight + s.offsetTop) {
+        if (window.scrollY >= s.offsetTop - 60 && window.scrollY <= s.offsetHeight + s.offsetTop) {
             document.querySelectorAll("header ul a.active").forEach((a) => {
                 a.classList.remove("active");
             });
@@ -97,8 +103,13 @@ window.onscroll = () => {
     })
 }
 
-// skills 
+// home
+// buttom
+document.querySelector(".home .text .main-button button").onclick = () => {
+    window.scroll(0,  document.querySelector(".contact").offsetTop - 70)
+};
 
+// skills 
 // button
 
 let down = document.querySelectorAll(".skills .content .down");
