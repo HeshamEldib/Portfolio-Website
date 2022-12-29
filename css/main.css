@@ -586,7 +586,7 @@ header ul li a.active::after {
     content: "\f064";
 }
 
-.home .image {
+/* .home .image {
     max-width: 49%;
 }
 .home .image .covar {
@@ -634,7 +634,8 @@ header ul li a.active::after {
     .home .image .covar::before {
         border-radius: 50%;
     }
-}
+} */
+
 /* end home */
 
 /* start about */
@@ -671,7 +672,7 @@ header ul li a.active::after {
     content: "\f019";
 }
 
-.about .image {
+/* .about .image {
     width: 48%;
     text-align: center;
 }
@@ -679,6 +680,62 @@ header ul li a.active::after {
     .about .image {
         width: 100%;
         margin-top: 40px;
+    }
+} */
+.about .image {
+    max-width: 48%;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .about .image {
+        max-width: 100%;
+        margin: 40px auto 0;
+    }
+}
+.about .image .covar {
+    border-radius: 25%;
+    width: 350px;
+    height: 404px;
+    padding: 4px;
+    position: relative;
+    border: 4px solid var(--main-color);
+    transition: 0.8s;
+}
+.about .image .covar::before {
+    content: "";
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    border-radius: 25%;
+    top: 0.5%;
+    left: 0.5%;
+    background-color: rgb(251 138 46 / 75%);
+    transition: 0.8s linear;
+}
+.about .image .covar img {
+    border-radius: 25%;
+    width: 100%;
+}
+.about .image:hover .covar {
+    border-color: var(--red-color);
+}
+.about .image:hover .covar::before {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    top: -40px;
+    left: calc(50% - 12.5px);
+    background-color: var(--red-color);
+}
+@media (max-width: 768px) {
+    .about .image .covar {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .about .image .covar::before {
+        border-radius: 50%;
     }
 }
 /* end about */
