@@ -760,7 +760,7 @@ header ul li a.active::after {
 
 .skills .container .content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
     gap: 40px;
     position: relative;
     text-align: center;
