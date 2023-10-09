@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import MainButton from "./MainButton";
+import { URL } from "../constant";
 
 import "./card-project.css";
-import { URL } from "../constant";
 
 interface BoxProps {
   project: any;
@@ -37,7 +37,7 @@ function Text({ project }: TextProps) {
   return (
     <div className="text">
       <h4>{project.title}</h4>
-      <p>{project.description.slice(0, 50) + "..."}</p>
+      <p>{project.description}</p>
       <div className="software">
         {project.skills.map((skill: string, index: number) => {
           return <span key={skill + index}>{skill}</span>;
