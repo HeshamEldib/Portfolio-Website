@@ -1,0 +1,71 @@
+/* start projects */
+.projects {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+.projects .description {
+  text-align: center;
+  margin: 18px auto;
+}
+.projects .description span {
+  font-size: 18px;
+  padding: 15px;
+  font-weight: 600;
+  color: var(--mode-color-trans);
+}
+
+
+.swiper {
+  overflow-y: visible;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+@media (max-width: 568px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+.swiper-button-next {
+  right: 5px;
+}
+.swiper-button-prev {
+  left: 5px;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: var(--hover-color);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  color: #111;
+}
+
+.swiper-pagination  {
+  bottom: -35px !important;
+}
+.swiper-pagination span {
+  width: 10px;
+  height: 10px;
+  background-color: var(--main-color);
+}
+
+/* show all button */
+.projects .show-all .main-button {
+  margin-top: 75px;
+  text-align: center;
+}

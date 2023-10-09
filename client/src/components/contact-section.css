@@ -1,0 +1,105 @@
+/* start contact */
+.contact {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .content .contactTop {
+  width: 49%;
+}
+@media (max-width: 768px) {
+  .contact .content .contactTop {
+    width: 100%;
+  }
+}
+.contact .content .contacts div {
+  display: flex;
+  margin: 24px;
+}
+.contact .content .contactTop div svg {
+  font-size: 25px;
+  margin-right: 16px;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.contact .content .contactTop div span h5 {
+  font-size: 21px;
+}
+.contact .content .contactTop div span span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #525151bf;
+}
+@media (max-width: 768px) {
+  .contact .content .contactTop div svg {
+    font-size: 22px;
+  }
+  .contact .content .contactTop div span h5 {
+    font-size: 19px;
+  }
+  .contact .content .contactTop div span span {
+    font-size: 14px;
+  }
+}
+
+.contact form {
+  width: 49%;
+}
+@media (max-width: 768px) {
+  .contact form {
+    width: 100%;
+  }
+}
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 0;
+  background-color: #423a3487;
+  color: #fff;
+  outline: none;
+  caret-color: var(--main-color);
+}
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+.contact form button {
+  width: 100%;
+  padding: 10px 20px;
+}
+.contact form button svg {
+  right: calc(50% - 50px);
+}
+
+.contact .mobileIcons {
+  display: flex;
+  margin: 0 auto 40px;
+  justify-content: center;
+}
+/* @media (max-width: 830px) {
+  .contact .mobileIcons {
+  }
+} */
+.contact .mobileIcons div {
+  margin: 0 10px;
+}
+.contact .mobileIcons svg {
+  color: var(--main-color);
+  font-size: 20px;
+}
+.contact .mobileIcons .linkedin:hover svg {
+  color: #0077b5;
+}
+.contact .mobileIcons .github:hover svg {
+  color: #6e5494;
+}
+/* end contact */

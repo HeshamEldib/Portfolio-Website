@@ -1,0 +1,31 @@
+.project-derails .header-project {
+  height: 60px;
+}
+
+.text-project-details {
+  margin-top: 30px;
+}
+.text-project-details h3 {
+  font-size: 25px;
+  border-left: 4px solid var(--main-color);
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.text-project-details p {
+  font-size: 16px;
+  word-spacing: 1.4px;
+}
+
+.text-project-details ul li {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #198754;
+  transition: 0.3s;
+}
+.text-project-details ul li:not(:last-of-type) {
+  margin-right: 10px;
+}
+.text-project-details ul li:hover {
+  color: var(--red-color);
+}
+
