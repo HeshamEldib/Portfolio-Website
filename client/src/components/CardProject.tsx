@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import MainButton from "./MainButton";
 
 import "./card-project.css";
+import { URL } from "../constant";
 
 interface BoxProps {
   project: any;
@@ -9,7 +10,7 @@ interface BoxProps {
 export default function CardProject({ project }: BoxProps) {
   return (
     <div className="card-project">
-      <Image poster={project.poster} />
+      <Image poster={URL + project.poster} />
       <Text project={project} />
       <Link to={`/project/${project._id}`}>
         <MainButton title="show" />

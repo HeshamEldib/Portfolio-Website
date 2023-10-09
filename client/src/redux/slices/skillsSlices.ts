@@ -1,9 +1,10 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { URL } from "../../constant";
 
 export const fetchSkills: any = createAsyncThunk(
   "skillsSlice/fetchSkills",
   async () => {
-    const res = await fetch("http://localhost:5000/api/skills");
+    const res = await fetch(`${URL}/api/skills`);
     const data = await res.json();
     return data.data.skills;
   }

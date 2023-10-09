@@ -1,9 +1,10 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { URL } from "../../constant";
 
 export const fetchText: any = createAsyncThunk(
   "textSlice/fetchText",
   async () => {
-    const res = await fetch("http://localhost:5000/api/text");
+    const res = await fetch(`${URL}/api/text`);
     const data = await res.json();
     return data.data.texts;
   }

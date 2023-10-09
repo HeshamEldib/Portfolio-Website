@@ -1,9 +1,10 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { URL } from "../../constant";
 
 export const fetchProjectById: any = createAsyncThunk(
   "projectsByIdSlice/fetchProjectById",
   async (projectId: string) => {
-    const res = await fetch(`http://localhost:5000/api/projects/${projectId}`);
+    const res = await fetch(`${URL}/api/projects/${projectId}`);
     const data = await res.json();
     return data.data.project;
   }

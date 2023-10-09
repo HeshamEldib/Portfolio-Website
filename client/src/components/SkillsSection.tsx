@@ -4,6 +4,7 @@ import "./skills-section.css";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 import { fetchSkills } from "../redux/slices/skillsSlices";
+import { URL } from "../constant";
 
 export default function SkillsSection() {
   return (
@@ -54,7 +55,7 @@ function SkillsContent({ skills }: SkillsContentProps) {
         return (
           <li key={skill.title + index}>
             <span>{skill.title}</span>
-            <img src={skill.image} alt="" />
+            <img src={URL + skill.image} alt="" />
           </li>
         );
       })}
