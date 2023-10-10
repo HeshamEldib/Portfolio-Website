@@ -2,7 +2,7 @@
 .skills {
   padding-top: var(--padding-top);
   padding-bottom: var(--padding-bottom);
-  background-image: url(../../public/images/key.webp);
+  background-image: url(../assets/images/key.webp);
   position: relative;
 }
 .skills::before {

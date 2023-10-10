@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import MainButton from "./MainButton";
 import { URL } from "../constant";
+import bg from "../assets/images/web-development.jpg";
 
 import "./card-project.css";
 
@@ -25,7 +26,7 @@ interface ImageProps {
 function Image({ poster }: ImageProps) {
   return (
     <div className="image">
-      <img src={poster || "./public/images/web-development.jpg"} alt="" />
+      <img src={poster || bg} alt="" />
     </div>
   );
 }

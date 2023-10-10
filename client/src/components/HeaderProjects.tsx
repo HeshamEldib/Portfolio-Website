@@ -1,10 +1,11 @@
-import "./header-project.css"
+import "./header-project.css";
+import bg from "../assets/images/bg-6.jpg";
 
 export default function HeaderProject() {
   return (
     <section className="header-project">
       <div className="image">
-        <img src="../public/images/bg-6.jpg" alt="" />
+        <img src={bg} alt="" />
       </div>
     </section>
   );

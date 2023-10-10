@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 import { fetchText } from "../redux/slices/textSlices";
+import bg from "../assets/images/H55.png";
 
 export default function HomeSection() {
   const texts = useSelector((state: RootState) => state.text.text[0]);
@@ -24,7 +25,7 @@ export default function HomeSection() {
           return <Text key={text._id} text={text?.content} />;
         })}
 
-        <Image image="./public/images/H55.png" />
+        <Image image={bg} />
       </div>
     </section>
   );
