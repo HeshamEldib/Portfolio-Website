@@ -66,7 +66,7 @@
     border-radius: 50%;
   }
   .home .image .cover {
-    background-image: url(./images/H53.png);
+    background-image: url(../assets/images/H53.png);
     background-size: cover;
     background-position: center;
     width: 180px;
