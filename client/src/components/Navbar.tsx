@@ -20,7 +20,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg h-100 bg-transparent">
           <div className="container-fluid p-0">
             <Logo />
-            <NavbarIcon />
+            {/* <NavbarIcon /> */}
             <NavbarLinks />
           </div>
         </nav>
@@ -58,10 +58,11 @@ function NavbarIcon() {
 function NavbarLinks() {
   return (
     <div
-      className="collapse navbar-collapse justify-content-end menu"
+      // className="collapse navbar-collapse justify-content-end menu"
+      className="justify-content-end"
       id="navbarNav"
     >
-      <ul className="navbar-nav">
+      <ul className="navbar-nav flex-row">
         <NavbarLink name="Home" path="/" />
         <NavbarLink name="Projects" path="/projects" />
       </ul>
