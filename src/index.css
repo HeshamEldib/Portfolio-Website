@@ -1,0 +1,72 @@
+:root {
+  --main-color: #fb8500;
+  --hover-color: #ef6c00;
+  --red-color: #d62828;
+  --moon-color: #fff2b2;
+  --padding-top: 60px;
+  --padding-bottom: 60px;
+  --mode-bag: #202020;
+  --mode-color: #d6d6d6;
+  --mode-color-trans: #ffffff82;
+  --mode-header: #333533;
+  --mode-menu: #2f4550;
+  --mode-bg-skills: #5c5c5c6e;
+  --mode-bg-hover-skills: #625d5d7e;
+  --mode-bg-projects: #2f3134;
+  --mode-bg-hover-projects: #343a40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--mode-bag);
+  color: var(--mode-color);
+}
+
+::selection {
+  background-color: transparent;
+  color: var(--main-color);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-color);
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* start footer */
+footer {
+  padding-top: var(--padding-top);
+  padding-bottom: 30px;
+  text-align: center;
+  color: #585858bd;
+  font-size: 15px;
+}
