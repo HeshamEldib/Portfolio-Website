@@ -115,6 +115,7 @@ DRIBBBLE: https://dribbble.com/shots/4330167-404-Page-Lost-In-Space
   overflow: hidden;
   width: 100%;
   top: -50px;
+  height: calc(100vh - 60px);
 }
 
 .spin-earth-on-hover {
@@ -217,7 +218,7 @@ DRIBBBLE: https://dribbble.com/shots/4330167-404-Page-Lost-In-Space
 
 .image-404 {
   position: relative;
-  z-index: 100;
+  z-index: 111;
   pointer-events: none;
   width: 300px;
 }
