@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/Portfolio-Website/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/project/:projectId" element={<ProjectDetails />} />
         <Route path="/*" element={<NotFound />} />
