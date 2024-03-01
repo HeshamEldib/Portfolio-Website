@@ -17,10 +17,10 @@ export default function SkillsSection() {
 
 function Skills() {
   const oddSkills: any = skills?.filter(
-    (e: any, index: number) => index % 2 === 0
+    (_, index: number) => index % 2 === 0
   );
   const evenSkills: any = skills?.filter(
-    (e: any, index: number) => index % 2 !== 0
+    (_, index: number) => index % 2 !== 0
   );
 
   return (
