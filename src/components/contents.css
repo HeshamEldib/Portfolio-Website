@@ -4,6 +4,7 @@
   background-color: var(--mode-bg-projects);
   border-radius: 20px;
   transition: 0.5s;
+  overflow: hidden;
 }
 .card-project:hover {
   transform: translate(1px, -1px);
@@ -47,7 +48,10 @@
   color: var(--mode-color-trans);
 }
 
-.card-project .text .software span {
+.card-project .software {
+  overflow: hidden;
+}
+.card-project .software span {
   font-size: 14px;
   font-weight: 500;
   margin-right: 10px;

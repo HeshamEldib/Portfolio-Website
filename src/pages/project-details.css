@@ -52,6 +52,7 @@
   border-radius: 20px;
   overflow: hidden;
   height: 550px;
+  background: #fff;
 }
 .window-project iframe {
   width: 100%;

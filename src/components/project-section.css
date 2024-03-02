@@ -27,17 +27,23 @@
   height: 40px;
   transition: 0.3s;
 }
-@media (max-width: 568px) {
-  .swiper-button-prev,
-  .swiper-button-next {
-    display: none;
-  }
-}
 .swiper-button-next {
   right: 5px;
 }
 .swiper-button-prev {
   left: 5px;
+}
+@media (max-width: 568px) {
+  /* .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  } */
+  .swiper-button-next {
+    right: 0px;
+  }
+  .swiper-button-prev {
+    left: 0px;
+  }
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover {

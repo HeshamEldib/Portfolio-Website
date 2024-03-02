@@ -4,7 +4,7 @@ import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { CardProject, MainButton, MainTitle } from "./Contents";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Virtual } from "swiper/modules";
+import { Navigation, Pagination, Virtual, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -43,19 +43,19 @@ export default function ProjectsSection() {
 function Boxes() {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Virtual]}
+      modules={[Navigation, Pagination, Virtual, Autoplay]}
+      autoplay={{
+        delay: 1500,
+        disableOnInteraction: false,
+      }}
       spaceBetween={10}
       slidesPerView={1}
-      speed={700}
+      speed={1100}
       navigation
       fadeEffect={{ crossFade: true }}
       pagination={{
         clickable: true,
         dynamicBullets: true,
-      }}
-      autoplay={{
-        delay: 3000,
-        disableOnInteraction: false,
       }}
       breakpoints={{
         // when window width is >= 576px
