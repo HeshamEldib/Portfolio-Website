@@ -81,6 +81,9 @@ header.show .navbar {
 }
 
 /* navbar menu show and hidden */
+.navbar-expand-lg .navbar-toggler {
+  box-shadow: none;
+}
 @media (min-width: 576px) {
   .navbar-expand-lg .navbar-toggler {
     display: none;
