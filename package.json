@@ -1,5 +1,6 @@
 {
-  "name": "Portfolio-Website",
+  "homepage": "https://heshameldib.github.io/Portfolio-Website/",
+  "name": "portfolio-website",
   "private": true,
   "version": "2.1.0",
   "type": "module",
