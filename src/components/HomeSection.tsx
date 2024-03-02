@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MainButton } from "./Contents";
 import { faShare } from "@fortawesome/free-solid-svg-icons";
 import "./home-section.css";
+import image_H55 from "../../public/images/H55.png";
 
 export default function HomeSection() {
   return (
@@ -42,7 +43,7 @@ function Image() {
   return (
     <div className="image">
       <div className="cover">
-        <img src="./public/images/H55.png" alt="" />
+        <img src={image_H55} alt="" />
       </div>
     </div>
   );

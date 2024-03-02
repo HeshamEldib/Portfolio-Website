@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./contents.css";
+import image_bg6 from "../../public/images/bg-6.jpg";
+
 
 // card project
 interface BoxProps {
@@ -8,9 +10,9 @@ interface BoxProps {
 export function CardProject({ project }: BoxProps) {
   return (
     <div className="card-project">
-      <Image poster={"./public/images/" + project.poster} />
+      <Image poster={project.poster} />
       <Text project={project} />
-      <Link to={`/project/${project.id}`}>
+      <Link to={`/Portfolio-Website/project/${project.id}`}>
         <MainButton title="show" />
       </Link>
     </div>
@@ -80,7 +82,7 @@ export function HeaderProject() {
   return (
     <section className="header-project">
       <div className="image">
-        <img src="../public/images/bg-6.jpg" alt="" />
+        <img src={image_bg6} alt="" />
       </div>
     </section>
   );

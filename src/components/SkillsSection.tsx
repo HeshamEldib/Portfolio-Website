@@ -44,7 +44,7 @@ function SkillsContent({ skills }: SkillsContentProps) {
         return (
           <li key={skill.title + index}>
             <span>{skill.title}</span>
-            <img src={"./public/images/" + skill.image} alt="" />
+            <img src={skill.image} alt="" />
           </li>
         );
       })}

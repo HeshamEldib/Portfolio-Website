@@ -32,7 +32,7 @@ export default function Navbar() {
 function Logo() {
   return (
     <div className="logo">
-      <Link to="/" className="navbar-brand">
+      <Link to="/Portfolio-Website" className="navbar-brand">
         Hesham Eldib
       </Link>
     </div>
@@ -62,8 +62,8 @@ function NavbarLinks() {
       id="navbarNav"
     >
       <ul className="navbar-nav">
-        <NavbarLink name="Home" path="/" />
-        <NavbarLink name="Projects" path="/projects" />
+        <NavbarLink name="Home" path="/Portfolio-Website/" />
+        <NavbarLink name="Projects" path="/Portfolio-Website/projects/" />
       </ul>
     </div>
   );

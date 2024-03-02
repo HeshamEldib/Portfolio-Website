@@ -1,8 +1,33 @@
+// projects images
+import image_Elzero from "../public/images/Elzero-template-three.png";
+import image_Liberty from "../public/images/Liberty-NFT-Marketplace.png";
+import image_Cyborg from "../public/images/Cyborg.png";
+import image_Special from "../public/images/Special-Design.png";
+import image_game from "../public/images/game.jpg";
+import image_Appyng from "../public/images/Appyng.png";
+import image_online_shop from "../public/images/online-shop.png";
+
+// skills images
+import image_html from "../public/images/html.png";
+import image_css from "../public/images/css.png";
+import image_js from "../public/images/js.png";
+import image_ts from "../public/images/ts.png";
+import image_bootstrap from "../public/images/bootstrap.png";
+import image_sass from "../public/images/sass.png";
+import image_jquery from "../public/images/jquery.png";
+import image_react from "../public/images/react.png";
+import image_redux from "../public/images/redux.png";
+import image_node from "../public/images/node.png";
+import image_express from "../public/images/express.png";
+import image_mongodb from "../public/images/mongodb.png";
+import image_git from "../public/images/git.png";
+import image_github from "../public/images/github.png";
+
 export const projects: any[] = [
   {
     id: "1",
     title: "Elzero template three",
-    poster: "Elzero-template-three.png",
+    poster: image_Elzero,
     description:
       "An application that I made, and concluded it with HTML, CSS and JavaScript",
     skills: ["html", "css", "js"],
@@ -12,7 +37,7 @@ export const projects: any[] = [
   {
     id: "2",
     title: "Liberty NFT Marketplace",
-    poster: "Liberty-NFT-Marketplace.png",
+    poster: image_Liberty,
     description:
       "Liberty NFT Market is a professional website design for NFT related websites. This HTML CSS template.",
     skills: ["html", "css", "js"],
@@ -22,7 +47,7 @@ export const projects: any[] = [
   {
     id: "3",
     title: "Cyborg Gaming",
-    poster: "Cyborg.png",
+    poster: image_Cyborg,
     description:
       "Cyborg Gaming is a darkgray color free CSS template based on Bootstrap website layout.",
     skills: ["html", "css", "js"],
@@ -32,7 +57,7 @@ export const projects: any[] = [
   {
     id: "4",
     title: "Special Design",
-    poster: "Special-Design.png",
+    poster: image_Special,
     description:
       "An application that I made, and concluded it with HTML, CSS and JavaScript",
     skills: ["html", "css", "js"],
@@ -42,7 +67,7 @@ export const projects: any[] = [
   {
     id: "5",
     title: "Matching Pictures Game",
-    poster: "game.jpg",
+    poster: image_game,
     description:
       "An application that I made, and concluded it with HTML, CSS and JavaScript",
     skills: ["html", "css", "js"],
@@ -52,7 +77,7 @@ export const projects: any[] = [
   {
     id: "6",
     title: "Appyng",
-    poster: "Appyng.png",
+    poster: image_Appyng,
     description:
       "An application that I made, and concluded it with HTML, CSS & SASS and JavaScript",
     skills: ["html", "css", "sass", "js"],
@@ -62,7 +87,7 @@ export const projects: any[] = [
   {
     id: "7",
     title: "Online Shop",
-    poster: "online-shop.png",
+    poster: image_online_shop,
     description:
       "Welcome to our E-Commerce project! This project aims to create a fully functional online shopping platform where users can browse products, add them to their cart, and make purchases. Features => User authentication: Users can sign up and log in to their accounts. Product browsing: Browse through a variety of products categorized by type, brand, or price. Shopping cart: Add products to the cart, update quantities, and proceed to checkout. Checkout process: Enter shipping details, select payment method, and complete the purchase. Order history: View past orders and order details. Technologies => Used Frontend: React, Redux, HTML, CSS, JavaScript, TypeScricpt Backend: Node.js, Express.js, MongoDB Authentication: JSON Web Tokens (JWT) Payment processing: Stripe API Deployment: Heroku",
     skills: ["html", "css", "js", "ts", "react", "node", "express", "mongodb"],
@@ -72,18 +97,18 @@ export const projects: any[] = [
 ];
 
 export const skills = [
-  { title: "HTML, HTML5", image: "html.png" },
-  { title: "CSS, CSS3", image: "css.png" },
-  { title: "JavaScript", image: "js.png" },
-  { title: "TypeScript", image: "ts.png" },
-  { title: "Bootstrap", image: "bootstrap.png" },
-  { title: "SASS", image: "sass.png" },
-  { title: "jQuery", image: "jquery.png" },
-  { title: "React", image: "react.png" },
-  { title: "Redux", image: "redux.png" },
-  { title: "Node.js", image: "node.png" },
-  { title: "Express", image: "express.png" },
-  { title: "MongoDB", image: "mongodb.png" },
-  { title: "Git", image: "git.png" },
-  { title: "GitHub", image: "github.png" },
+  { title: "HTML, HTML5", image: image_html },
+  { title: "CSS, CSS3", image: image_css },
+  { title: "JavaScript", image: image_js },
+  { title: "TypeScript", image: image_ts },
+  { title: "Bootstrap", image: image_bootstrap },
+  { title: "SASS", image: image_sass },
+  { title: "jQuery", image: image_jquery },
+  { title: "React", image: image_react },
+  { title: "Redux", image: image_redux },
+  { title: "Node.js", image: image_node },
+  { title: "Express", image: image_express },
+  { title: "MongoDB", image: image_mongodb },
+  { title: "Git", image: image_git },
+  { title: "GitHub", image: image_github },
 ];

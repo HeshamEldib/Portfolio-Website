@@ -30,7 +30,7 @@ export default function ProjectsSection() {
           <Boxes />
         </div>
 
-        <Link to="/projects" className="show-all">
+        <Link to="/Portfolio-Website/projects" className="show-all">
           <MainButton title="SHOW ALL">
             <FontAwesomeIcon icon={faBookOpen} />
           </MainButton>
