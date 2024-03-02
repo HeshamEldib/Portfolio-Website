@@ -59,12 +59,16 @@ function Boxes() {
       }}
       breakpoints={{
         // when window width is >= 576px
-        576: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
+        // 576: {
+        //   slidesPerView: 2,
+        //   spaceBetween: 20,
+        // },
         // when window width is >= 992px
         992: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1200: {
           slidesPerView: 3,
           spaceBetween: 30,
         },

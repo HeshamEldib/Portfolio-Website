@@ -71,7 +71,8 @@
 }
 
 /* show all button */
-.projects .show-all .main-button {
-  margin-top: 75px;
-  text-align: center;
+.projects .show-all {
+  margin: 75px auto 0;
+  width: fit-content;
+  display: block;
 }

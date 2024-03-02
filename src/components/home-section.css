@@ -36,14 +36,14 @@
   max-width: 50%;
 }
 .home .text h6 {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--main-color);
   font-weight: 500;
 }
 .home .text h1 {
   display: block;
   color: #fff;
-  font-size: 35px;
+  font-size: 37px;
   font-weight: 600;
   font-family: "Caramel", cursive;
 }
