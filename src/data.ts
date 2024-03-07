@@ -92,7 +92,7 @@ export const projects: any[] = [
       "Welcome to our E-Commerce project! This project aims to create a fully functional online shopping platform where users can browse products, add them to their cart, and make purchases. Features => User authentication: Users can sign up and log in to their accounts. Product browsing: Browse through a variety of products categorized by type, brand, or price. Shopping cart: Add products to the cart, update quantities, and proceed to checkout. Checkout process: Enter shipping details, select payment method, and complete the purchase. Order history: View past orders and order details. Technologies => Used Frontend: React, Redux, HTML, CSS, JavaScript, TypeScricpt Backend: Node.js, Express.js, MongoDB Authentication: JSON Web Tokens (JWT) Payment processing: Stripe API Deployment: Heroku",
     skills: ["html", "css", "js", "ts", "react", "node", "express", "mongodb"],
     github: "https://github.com/HeshamEldib/online-shop/",
-    linkProject: "https://heshameldib.github.io/Appyng/",
+    linkProject: "https://online-shop-ten-ashen.vercel.app/",
   },
 ];
 
