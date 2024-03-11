@@ -48,7 +48,7 @@
 
 .window-project .window {
   border: 2px solid var(--main-color);
-  margin: 7px 30px;
+  margin: 7px 14px;
   border-radius: 20px;
   overflow: hidden;
   height: 650px;
