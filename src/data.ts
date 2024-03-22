@@ -22,6 +22,8 @@ import image_express from "../public/images/express.png";
 import image_mongodb from "../public/images/mongodb.png";
 import image_git from "../public/images/git.png";
 import image_github from "../public/images/github.png";
+import image_graphql from "../public/images/graphql.png";
+import image_jest from "../public/images/jest.png";
 
 export const projects: any[] = [
   {
@@ -111,4 +113,6 @@ export const skills = [
   { title: "MongoDB", image: image_mongodb },
   { title: "Git", image: image_git },
   { title: "GitHub", image: image_github },
+  { title: "GraphQL", image: image_graphql },
+  { title: "Jest", image: image_jest },
 ];
