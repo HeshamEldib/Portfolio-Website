@@ -1,8 +1,8 @@
 import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MainButton, MainTitle } from "./Contents";
+import CV_pdf from "../../public/images/HESHAM ELDIB FRONT END WWB DEVELOPER RESUME.pdf";
 import "./about-section.css";
-import CV_pdf from "../../public/images/Hesham Eldib Front End Web Developer Resume.pdf";
 
 
 function AboutSection() {
