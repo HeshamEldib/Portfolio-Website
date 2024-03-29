@@ -13,6 +13,7 @@ import image_css from "../public/images/css.png";
 import image_js from "../public/images/js.png";
 import image_ts from "../public/images/ts.png";
 import image_bootstrap from "../public/images/bootstrap.png";
+import image_tailwind from "../public/images/tailwind-css.png";
 import image_sass from "../public/images/sass.png";
 import image_jquery from "../public/images/jquery.png";
 import image_react from "../public/images/react.png";
@@ -104,6 +105,7 @@ export const skills = [
   { title: "JavaScript", image: image_js },
   { title: "TypeScript", image: image_ts },
   { title: "Bootstrap", image: image_bootstrap },
+  { title: "Tailwind CSS", image: image_tailwind },
   { title: "SASS", image: image_sass },
   { title: "jQuery", image: image_jquery },
   { title: "React", image: image_react },

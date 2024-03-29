@@ -2,7 +2,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MainButton, MainTitle } from "./Contents";
 import "./about-section.css";
-import CV_pdf from "../../public/images/HESHAM ELDIB FRONT END WEB DEVELOPER RESUME.pdf";
+import CV_pdf from "../../public/images/Hesham Eldib Front End Web Developer Resume.pdf";
 
 
 function AboutSection() {
@@ -53,7 +53,7 @@ function AboutSection() {
           <a
             href={CV_pdf}
             className="main-button"
-            download="HESHAM ELDIB FRONT END WEB DEVELOPER RESUME"
+            download="Hesham Eldib Front End Web Developer Resume"
             target="_break"
           >
             <MainButton title="Download CV ">
