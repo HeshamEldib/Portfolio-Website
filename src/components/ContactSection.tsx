@@ -48,7 +48,7 @@ function Contacts() {
         content="heshameldib27@gmail.com"
         icon={faEnvelope}
       />
-      <Contact title="Location" content="Egypt Fayoum" icon={faLocationDot} />
+      <Contact title="Location" content="Egypt Cairo" icon={faLocationDot} />
     </div>
   );
 }

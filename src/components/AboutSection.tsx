@@ -4,7 +4,6 @@ import { MainButton, MainTitle } from "./Contents";
 import CV_pdf from "../../public/images/HESHAM ELDIB FRONT END WWB DEVELOPER RESUME.pdf";
 import "./about-section.css";
 
-
 function AboutSection() {
   return (
     <section className="about" id="ab">
@@ -14,9 +13,9 @@ function AboutSection() {
         <div className="text">
           <div className="ctaDescription">
             <p>
-              Good day, My name is Hesham and I am currently a student at Fayoum
-              University, Faculty of Science, Mathematics Department. I am
-              expected to graduate after 1 year.
+              Good day, My name is Hesham and I studied at Fayoum University,
+              Faculty of Science, Department of Computer Science and
+              Mathematics.
             </p>
             <p>
               Ever since high school, I have had a passion for information
